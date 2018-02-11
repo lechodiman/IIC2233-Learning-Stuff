@@ -1,0 +1,33 @@
+    def mousePressEvent(self, event):
+        if self.ic.build:
+            items = self.ic.cursor.collidingItems()
+            for i in items:
+                if isinstance(i, Tower):
+                    return
+
+            self.scene.addItem(self.ic.build)
+            self.ic.build.setPos(event.pos())
+            self.ic.build = None
+            self.ic.cursor = None
+        else:
+            super().mousePressEvent(event)
+
+    def set_cursor(self, filename):
+        '''filename: str '''
+        if self.cursor:
+            self.scene.removeItem(self.cursor)
+            del self.cursor
+
+        self.cursor = QGraphicsPixmapItem(QPixmap(filename))
+        self.scene.addItem(self.cursor)
+    def create_road(self):
+        for i in range(0, len(self.points_to_follow) - 1):
+            # create a non physical line
+            ln = QLineF(self.points_to_follow[i], self.points_to_follow[i + 1])
+            line_item = QGraphicsLineItem(ln)
+            pen = QPen()
+            pen.setWidth(15)
+            pen.setColor(Qt.darkGray)
+            line_item.setPen(pen)
+            self.scene.addItem(line_item)
+

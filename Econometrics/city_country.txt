@@ -1,0 +1,51 @@
+﻿1, 2
+Santiago, Chile
+Buenos Aires, Argentina
+Londres,
+Dubai, United Arab Emirates
+Istanbul, Turkey
+Kaohsiung, Taiwan
+Vienna, Austria
+Brussels, Belgium
+Porto Alegre, Brazil
+Rio de Janeiro, Brazil
+Sao Paulo,
+Brasilia,
+Sofia, Bulgaria
+Beijing, China
+Changsha, China
+Hong Kong, China
+Shangai,
+Copenhagen,  Denmark
+Toronto, Canada
+Vancouver, Canada
+Prague, Czech Republic
+lyon,
+Paris, France
+Berlin, Germany
+Munich, Germany
+Hamburg, Germany
+Athens, Greece
+Budapest, Hungary
+Milan, Italy
+Naples, Italy
+Turin, Italy
+Amsterdam, Netherlands
+Saint Petesburg,
+Novosibirks,
+Taipei, Taiwan
+Istanbul, Turkey
+Ankara, Turkey
+Rome, Italy
+Mexico City, Mexico
+Oslo, Norway
+Moscow, Russia
+Barcelona, Spain
+Madrid, Spain
+Boston, USA
+Chicago, USA
+New York,
+Los Angeles, USA
+Budapest, Hungary
+Oslo, Norway
+Bucharest, Romania
